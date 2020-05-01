@@ -17,8 +17,9 @@ limitations under the License.
 */
 
 import { inputRules as pmInputRules } from 'prosemirror-inputrules'
-import { buildInputRules } from './inputRules'
 import { Schema } from 'prosemirror-model'
+
+import { buildInputRules } from './inputRules'
 
 export * from './inputRules'
 

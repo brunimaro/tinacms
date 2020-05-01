@@ -25,7 +25,7 @@ import {
   deleteEmptyCodeblock,
   exitCodeUp,
   exitCodeHard,
-} from '../../commands/codeblock-commands'
+} from '../../plugins/CodeBlock/commands'
 
 // TODO
 type CodeMirrorEditor = any

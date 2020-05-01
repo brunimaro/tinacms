@@ -21,8 +21,8 @@ import { useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 import { Plugin } from '@tinacms/core'
 
-import { Menu } from '../Menu'
-import { Format } from '../../Translator'
+import { Menubar } from '../Menubar'
+import { Format } from '../../translator'
 import { ImageProps } from '../../types'
 
 import { CodeMirrorCss } from './styles/CodeMirror'
@@ -66,8 +66,7 @@ export const Wysiwyg = styled(
           imageProps={imageProps}
           format={format}
         >
-          <Menu
-            bottom={false}
+          <Menubar
             sticky={sticky}
             uploadImages={imageProps && imageProps.upload}
           />

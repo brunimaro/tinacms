@@ -17,8 +17,8 @@ limitations under the License.
 */
 
 import { PMTestHarness } from '../../../prosemirror-test-utils'
-import { insertImage, insertImageList, alignImage, removeImage } from '.'
 import { defaultSchema } from '../../../schema/default-schema'
+import { insertImage, insertImageList, alignImage, removeImage } from '.'
 
 const { forDoc, doc, p, text, image } = new PMTestHarness(defaultSchema)
 

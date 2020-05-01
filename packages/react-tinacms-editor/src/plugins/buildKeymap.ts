@@ -24,9 +24,10 @@ import {
   splitBlock,
 } from 'prosemirror-commands'
 import { Schema } from 'prosemirror-model'
-import { findPlugins } from '.'
 import { Plugin } from '@tinacms/core'
+
 import { KeymapPlugin } from '../types'
+import { findPlugins } from '.'
 
 const mac =
   typeof navigator != 'undefined' ? /Mac/.test(navigator.platform) : false

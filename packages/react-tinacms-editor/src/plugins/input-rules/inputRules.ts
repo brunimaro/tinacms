@@ -23,7 +23,8 @@ import {
 } from 'prosemirror-inputrules'
 import { MarkType, NodeType, Schema } from 'prosemirror-model'
 import { EditorState } from 'prosemirror-state'
-import { singleMarkCommand } from '../../commands/single-mark-command'
+
+import { singleMarkCommand } from '../Inline/commands'
 
 const star = '\\*'
 const double = (boundary: string) =>

@@ -16,8 +16,6 @@ limitations under the License.
 
 */
 
-import { linkPluginKey, linkPlugin } from './plugin'
-import { ToolbarComponent } from './ToolbarComponent'
-import { LinkForm } from './FloatingComponents/LinkForm'
-
-export { linkPluginKey, linkPlugin, ToolbarComponent, LinkForm }
+export { linkPluginKey, linkPlugin } from './plugin'
+export { Menu } from './Menu'
+export { LinkForm } from './Popups/Form'

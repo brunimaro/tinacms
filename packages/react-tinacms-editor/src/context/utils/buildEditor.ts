@@ -23,7 +23,7 @@ import { createEditorState } from '../../plugins'
 import { buildSchema } from '../../schema'
 import { buildTranslator } from './buildTranslator'
 import { nodeViews } from '../../node-views'
-import { Format } from '../../Translator'
+import { Format } from '../../translator'
 import { ImageProps } from '../../types'
 
 export interface Input {
